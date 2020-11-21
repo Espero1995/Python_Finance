@@ -1,0 +1,8 @@
+autoOpen: false
+apps:
+  - port: 5000
+    run: 'cat requirements.txt | xargs sudo pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com && python app.py'
+    root: ./web
+    name: PythonDemo
+    description: 我的第一个 Python 项目
+    autoOpen: true
